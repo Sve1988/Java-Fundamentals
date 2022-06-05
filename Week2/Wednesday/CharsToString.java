@@ -1,0 +1,17 @@
+package Week2.Wednesday;
+
+import java.util.Scanner;
+
+public class CharsToString {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String all = "";
+
+        for (int i = 1; i <= 3; i++) {
+            char symbol = scanner.nextLine().charAt(0);
+            all = all + symbol;
+        }
+
+        System.out.println(all);
+    }
+}
